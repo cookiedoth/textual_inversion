@@ -162,3 +162,12 @@ cython_debug/
 src/
 latent_diffusion.egg-info/
 models/ldm/text2img-large/
+best_artworks/images
+best_artworks/resized
+best_artworks/artists.csv
+*.nfs*
+best_artworks/imgs
+**/logs/**/configs/**
+**/logs/**/images/**
+**/logs/**/testtube/**
+????.jpg

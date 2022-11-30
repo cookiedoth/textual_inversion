@@ -29,4 +29,4 @@ def extract_styles(artist_name, bucket_count, bucket_size):
         except:
             pass
 
-extract_styles('Alfred_Sisley', 5, 5)
+extract_styles('Pablo_Picasso', 5, 5)
