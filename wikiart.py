@@ -1,6 +1,6 @@
 import os
 import json
-from painting import Painting
+from paintings import Painting
 
 
 WIKIART_PATH = 'datasets/wikiart-saved'
