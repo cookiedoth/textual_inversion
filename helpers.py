@@ -7,6 +7,7 @@ def execute_gen(cmd):
     popen.stdout.close()
 
 
-def execute(cmd):
+def execute(cmd, silent=False):
     for line in execute_gen(cmd):
-        print(line, end='')
+        if not silent:
+            print(line, end='')

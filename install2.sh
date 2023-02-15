@@ -10,5 +10,5 @@ chmod 600 ~/.kaggle/kaggle.json
 
 mkdir datasets
 gsutil cp gs://wikiart_op/wikiart.tar datasets
-tar xzf datasets/wikiart.tar datasets
+tar xvf datasets/wikiart.tar datasets
 rm datasets/wikiart.tar

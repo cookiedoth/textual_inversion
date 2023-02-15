@@ -36,3 +36,8 @@ def load_artist(artist_url):
         print(f'Loading {meta["title"]}')
         result.append(load_painting(meta))
     return result
+
+
+def find_by_title(painting_list, title):
+    filtered = list(filter(lambda x: x.title == title, painting_list))
+    return filtered[0] if filtered else None
