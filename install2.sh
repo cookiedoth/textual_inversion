@@ -8,6 +8,6 @@ conda install -c conda-forge kaggle
 touch ~/.kaggle/kaggle.json
 chmod 600 ~/.kaggle/kaggle.json
 
-# mkdir datasets
-# gsutil cp gs://wikiart_op/wikiart.tar datasets
-# tar xvf datasets/wikiart.tar datasets
+mkdir datasets
+gsutil cp gs://wikiart_op/meta.tar datasets
+tar xvf datasets/meta.tar -C datasets
